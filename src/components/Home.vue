@@ -32,7 +32,7 @@
 .hero-video {
   width: 100vw;
   max-width: 100%;
-  height: 40vh;
+  height: 100vh;
   min-height: 200px;
   object-fit: cover;
   border-radius: 0;
