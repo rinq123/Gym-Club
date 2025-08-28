@@ -63,7 +63,7 @@
     min-height: 120px;
   }
   .home h1 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .home p {
     font-size: 1rem;
