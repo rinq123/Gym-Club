@@ -3,6 +3,6 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Gym-Club/', // Replace with your actual repo name
+  base: process.env.NODE_ENV === 'production' ? '/Gym-Club/' : '/',
   plugins: [vue()],
 })
