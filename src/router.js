@@ -14,7 +14,7 @@ const routes = [
     {path: '/contact', component: Contact, name: 'Contact'},
 ]
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/Gym-Club/'),
     routes
 });
 
