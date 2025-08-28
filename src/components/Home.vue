@@ -16,37 +16,57 @@
 //Logic
 </script>
 <style>
-.home{
+.home {
   padding: 2rem;
   text-align: center;
 }
 
-.home-logo{
-  max-width: 50%;
-  height: auto;
-}
-
 .logo img {
-  height: 50rem; 
-  width: 50rem;
-}
-
-.hero{
-  width: 100%;
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #000;
-  overflow: hidden;
+  width: 80vw;
+  max-width: 350px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .hero-video {
-  min-width: 100%;
-  min-height: 100%;
+  width: 100vw;
+  max-width: 100%;
+  height: 40vh;
+  min-height: 200px;
   object-fit: cover;
   border-radius: 0;
+  display: block;
+  margin: 0 auto;
 }
 
+.home h1 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
 
+.home p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .home {
+    padding: 1rem;
+  }
+  .logo img {
+    max-width: 180px;
+    width: 90vw;
+  }
+  .hero-video {
+    height: 25vh;
+    min-height: 120px;
+  }
+  .home h1 {
+    font-size: 1.3rem;
+  }
+  .home p {
+    font-size: 1rem;
+  }
+}
 </style>
